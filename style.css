@@ -1,0 +1,50 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  margin: auto;
+  border: 2px solid black;
+}
+.time_container {
+  margin: auto;
+}
+.btn_container {
+  margin: auto;
+}
+#timer {
+  font-size: 25px;
+}
+#start {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(65, 209, 65);
+  border: none;
+}
+#pause {
+  width: 80px;
+  height: 30px;
+  background-color: orange;
+  border: none;
+}
+#reset {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: red;
+}
+#Cast {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(0, 217, 255);
+  border: none;
+}
+#start,
+#Cast,
+#reset,
+#pause {
+  cursor: pointer;
+}
+#cast_list {
+  list-style: none;
+}
